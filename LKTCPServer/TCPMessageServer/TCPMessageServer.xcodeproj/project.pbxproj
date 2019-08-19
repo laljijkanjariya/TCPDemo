@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92369561201EF74900536F7B /* TCPSignupRespose.m in Sources */ = {isa = PBXBuildFile; fileRef = 92369560201EF74900536F7B /* TCPSignupRespose.m */; };
+		92369567201F0AE200536F7B /* TCPGetAllUserRespose.m in Sources */ = {isa = PBXBuildFile; fileRef = 92369566201F0AE200536F7B /* TCPGetAllUserRespose.m */; };
+		927AE86A201B2D2B001D1B61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 927AE869201B2D2B001D1B61 /* AppDelegate.m */; };
+		927AE86D201B2D2B001D1B61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 927AE86C201B2D2B001D1B61 /* ViewController.m */; };
+		927AE870201B2D2B001D1B61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927AE86E201B2D2B001D1B61 /* Main.storyboard */; };
+		927AE875201B2D2B001D1B61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927AE874201B2D2B001D1B61 /* Assets.xcassets */; };
+		927AE878201B2D2B001D1B61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927AE876201B2D2B001D1B61 /* LaunchScreen.storyboard */; };
+		927AE87B201B2D2B001D1B61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 927AE87A201B2D2B001D1B61 /* main.m */; };
+		927AE883201B2DED001D1B61 /* TCPMessageServer.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 927AE882201B2DED001D1B61 /* TCPMessageServer.xcdatamodel */; };
+		927AE886201B2E1C001D1B61 /* TCPMessageDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 927AE885201B2E1C001D1B61 /* TCPMessageDBManager.m */; };
+		927AE889201B2EAC001D1B61 /* TCPMessageUpdateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 927AE888201B2EAC001D1B61 /* TCPMessageUpdateManager.m */; };
+		927AE88C201B3034001D1B61 /* TCPUserListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 927AE88B201B3034001D1B61 /* TCPUserListVC.m */; };
+		927AE894201B3A19001D1B61 /* TCPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 927AE893201B3A19001D1B61 /* TCPServer.m */; };
+		927AE897201B3D06001D1B61 /* TCPServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 927AE896201B3D06001D1B61 /* TCPServerManager.m */; };
+		927AE89A201B3E13001D1B61 /* TCPResposeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 927AE899201B3E13001D1B61 /* TCPResposeManager.m */; };
+		927AE89D201B43BD001D1B61 /* TCPRequestType.m in Sources */ = {isa = PBXBuildFile; fileRef = 927AE89C201B43BD001D1B61 /* TCPRequestType.m */; };
+		927AE8A0201B531A001D1B61 /* TCPLoginRespose.m in Sources */ = {isa = PBXBuildFile; fileRef = 927AE89F201B531A001D1B61 /* TCPLoginRespose.m */; };
+		92C09CD4201EDCCC002EBE5A /* TCPLogoffRespose.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C09CD3201EDCCC002EBE5A /* TCPLogoffRespose.m */; };
+		92CD0058201F3551004F0E7D /* TCPBroadcastRespose.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD0057201F3551004F0E7D /* TCPBroadcastRespose.m */; };
+		92CD005E201F54CD004F0E7D /* TCPSentMessageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD005D201F54CD004F0E7D /* TCPSentMessageResponse.m */; };
+		92CD0061201F54EC004F0E7D /* TCPUpdateMsgStatusResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD0060201F54EC004F0E7D /* TCPUpdateMsgStatusResponse.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9236955F201EF74900536F7B /* TCPSignupRespose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPSignupRespose.h; sourceTree = "<group>"; };
+		92369560201EF74900536F7B /* TCPSignupRespose.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPSignupRespose.m; sourceTree = "<group>"; };
+		92369565201F0AE200536F7B /* TCPGetAllUserRespose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPGetAllUserRespose.h; sourceTree = "<group>"; };
+		92369566201F0AE200536F7B /* TCPGetAllUserRespose.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPGetAllUserRespose.m; sourceTree = "<group>"; };
+		927AE865201B2D2B001D1B61 /* TCPMessageServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCPMessageServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		927AE868201B2D2B001D1B61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		927AE869201B2D2B001D1B61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		927AE86B201B2D2B001D1B61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		927AE86C201B2D2B001D1B61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		927AE86F201B2D2B001D1B61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		927AE874201B2D2B001D1B61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		927AE877201B2D2B001D1B61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		927AE879201B2D2B001D1B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		927AE87A201B2D2B001D1B61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		927AE882201B2DED001D1B61 /* TCPMessageServer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TCPMessageServer.xcdatamodel; sourceTree = "<group>"; };
+		927AE884201B2E1C001D1B61 /* TCPMessageDBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPMessageDBManager.h; sourceTree = "<group>"; };
+		927AE885201B2E1C001D1B61 /* TCPMessageDBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPMessageDBManager.m; sourceTree = "<group>"; };
+		927AE887201B2EAC001D1B61 /* TCPMessageUpdateManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPMessageUpdateManager.h; sourceTree = "<group>"; };
+		927AE888201B2EAC001D1B61 /* TCPMessageUpdateManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPMessageUpdateManager.m; sourceTree = "<group>"; };
+		927AE88A201B3034001D1B61 /* TCPUserListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPUserListVC.h; sourceTree = "<group>"; };
+		927AE88B201B3034001D1B61 /* TCPUserListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPUserListVC.m; sourceTree = "<group>"; };
+		927AE892201B3A19001D1B61 /* TCPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPServer.h; sourceTree = "<group>"; };
+		927AE893201B3A19001D1B61 /* TCPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPServer.m; sourceTree = "<group>"; };
+		927AE895201B3D06001D1B61 /* TCPServerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPServerManager.h; sourceTree = "<group>"; };
+		927AE896201B3D06001D1B61 /* TCPServerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPServerManager.m; sourceTree = "<group>"; };
+		927AE898201B3E13001D1B61 /* TCPResposeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPResposeManager.h; sourceTree = "<group>"; };
+		927AE899201B3E13001D1B61 /* TCPResposeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPResposeManager.m; sourceTree = "<group>"; };
+		927AE89B201B43BD001D1B61 /* TCPRequestType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPRequestType.h; sourceTree = "<group>"; };
+		927AE89C201B43BD001D1B61 /* TCPRequestType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPRequestType.m; sourceTree = "<group>"; };
+		927AE89E201B531A001D1B61 /* TCPLoginRespose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPLoginRespose.h; sourceTree = "<group>"; };
+		927AE89F201B531A001D1B61 /* TCPLoginRespose.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPLoginRespose.m; sourceTree = "<group>"; };
+		92C09CD2201EDCCC002EBE5A /* TCPLogoffRespose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPLogoffRespose.h; sourceTree = "<group>"; };
+		92C09CD3201EDCCC002EBE5A /* TCPLogoffRespose.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPLogoffRespose.m; sourceTree = "<group>"; };
+		92CD0056201F3551004F0E7D /* TCPBroadcastRespose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPBroadcastRespose.h; sourceTree = "<group>"; };
+		92CD0057201F3551004F0E7D /* TCPBroadcastRespose.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPBroadcastRespose.m; sourceTree = "<group>"; };
+		92CD005C201F54CD004F0E7D /* TCPSentMessageResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPSentMessageResponse.h; sourceTree = "<group>"; };
+		92CD005D201F54CD004F0E7D /* TCPSentMessageResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPSentMessageResponse.m; sourceTree = "<group>"; };
+		92CD005F201F54EC004F0E7D /* TCPUpdateMsgStatusResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPUpdateMsgStatusResponse.h; sourceTree = "<group>"; };
+		92CD0060201F54EC004F0E7D /* TCPUpdateMsgStatusResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPUpdateMsgStatusResponse.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		927AE862201B2D2B001D1B61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		927AE85C201B2D2B001D1B61 = {
+			isa = PBXGroup;
+			children = (
+				927AE867201B2D2B001D1B61 /* TCPMessageServer */,
+				927AE866201B2D2B001D1B61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		927AE866201B2D2B001D1B61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				927AE865201B2D2B001D1B61 /* TCPMessageServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		927AE867201B2D2B001D1B61 /* TCPMessageServer */ = {
+			isa = PBXGroup;
+			children = (
+				927AE868201B2D2B001D1B61 /* AppDelegate.h */,
+				927AE869201B2D2B001D1B61 /* AppDelegate.m */,
+				927AE86B201B2D2B001D1B61 /* ViewController.h */,
+				927AE86C201B2D2B001D1B61 /* ViewController.m */,
+				927AE88A201B3034001D1B61 /* TCPUserListVC.h */,
+				927AE88B201B3034001D1B61 /* TCPUserListVC.m */,
+				927AE86E201B2D2B001D1B61 /* Main.storyboard */,
+				927AE874201B2D2B001D1B61 /* Assets.xcassets */,
+				927AE876201B2D2B001D1B61 /* LaunchScreen.storyboard */,
+				927AE879201B2D2B001D1B61 /* Info.plist */,
+				927AE87A201B2D2B001D1B61 /* main.m */,
+				927AE890201B39EE001D1B61 /* TCPServer */,
+				927AE881201B2DED001D1B61 /* TCPMessageServerDB */,
+			);
+			path = TCPMessageServer;
+			sourceTree = "<group>";
+		};
+		927AE881201B2DED001D1B61 /* TCPMessageServerDB */ = {
+			isa = PBXGroup;
+			children = (
+				927AE882201B2DED001D1B61 /* TCPMessageServer.xcdatamodel */,
+				927AE884201B2E1C001D1B61 /* TCPMessageDBManager.h */,
+				927AE885201B2E1C001D1B61 /* TCPMessageDBManager.m */,
+				927AE887201B2EAC001D1B61 /* TCPMessageUpdateManager.h */,
+				927AE888201B2EAC001D1B61 /* TCPMessageUpdateManager.m */,
+			);
+			name = TCPMessageServerDB;
+			path = TCPMessageServer.xcdatamodeld/TCPMessageServerDB;
+			sourceTree = "<group>";
+		};
+		927AE890201B39EE001D1B61 /* TCPServer */ = {
+			isa = PBXGroup;
+			children = (
+				927AE892201B3A19001D1B61 /* TCPServer.h */,
+				927AE893201B3A19001D1B61 /* TCPServer.m */,
+				927AE895201B3D06001D1B61 /* TCPServerManager.h */,
+				927AE896201B3D06001D1B61 /* TCPServerManager.m */,
+				927AE891201B39EE001D1B61 /* TCPResponse */,
+			);
+			path = TCPServer;
+			sourceTree = "<group>";
+		};
+		927AE891201B39EE001D1B61 /* TCPResponse */ = {
+			isa = PBXGroup;
+			children = (
+				927AE898201B3E13001D1B61 /* TCPResposeManager.h */,
+				927AE899201B3E13001D1B61 /* TCPResposeManager.m */,
+				92CD0056201F3551004F0E7D /* TCPBroadcastRespose.h */,
+				92CD0057201F3551004F0E7D /* TCPBroadcastRespose.m */,
+				927AE89B201B43BD001D1B61 /* TCPRequestType.h */,
+				927AE89C201B43BD001D1B61 /* TCPRequestType.m */,
+				927AE89E201B531A001D1B61 /* TCPLoginRespose.h */,
+				927AE89F201B531A001D1B61 /* TCPLoginRespose.m */,
+				92C09CD2201EDCCC002EBE5A /* TCPLogoffRespose.h */,
+				92C09CD3201EDCCC002EBE5A /* TCPLogoffRespose.m */,
+				9236955F201EF74900536F7B /* TCPSignupRespose.h */,
+				92369560201EF74900536F7B /* TCPSignupRespose.m */,
+				92369565201F0AE200536F7B /* TCPGetAllUserRespose.h */,
+				92369566201F0AE200536F7B /* TCPGetAllUserRespose.m */,
+				92CD005C201F54CD004F0E7D /* TCPSentMessageResponse.h */,
+				92CD005D201F54CD004F0E7D /* TCPSentMessageResponse.m */,
+				92CD005F201F54EC004F0E7D /* TCPUpdateMsgStatusResponse.h */,
+				92CD0060201F54EC004F0E7D /* TCPUpdateMsgStatusResponse.m */,
+			);
+			path = TCPResponse;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		927AE864201B2D2B001D1B61 /* TCPMessageServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 927AE87E201B2D2B001D1B61 /* Build configuration list for PBXNativeTarget "TCPMessageServer" */;
+			buildPhases = (
+				927AE861201B2D2B001D1B61 /* Sources */,
+				927AE862201B2D2B001D1B61 /* Frameworks */,
+				927AE863201B2D2B001D1B61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCPMessageServer;
+			productName = TCPMessageServer;
+			productReference = 927AE865201B2D2B001D1B61 /* TCPMessageServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		927AE85D201B2D2B001D1B61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Siya9;
+				TargetAttributes = {
+					927AE864201B2D2B001D1B61 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 927AE860201B2D2B001D1B61 /* Build configuration list for PBXProject "TCPMessageServer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 927AE85C201B2D2B001D1B61;
+			productRefGroup = 927AE866201B2D2B001D1B61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				927AE864201B2D2B001D1B61 /* TCPMessageServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		927AE863201B2D2B001D1B61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927AE878201B2D2B001D1B61 /* LaunchScreen.storyboard in Resources */,
+				927AE875201B2D2B001D1B61 /* Assets.xcassets in Resources */,
+				927AE870201B2D2B001D1B61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		927AE861201B2D2B001D1B61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927AE889201B2EAC001D1B61 /* TCPMessageUpdateManager.m in Sources */,
+				927AE883201B2DED001D1B61 /* TCPMessageServer.xcdatamodel in Sources */,
+				92369567201F0AE200536F7B /* TCPGetAllUserRespose.m in Sources */,
+				927AE897201B3D06001D1B61 /* TCPServerManager.m in Sources */,
+				92369561201EF74900536F7B /* TCPSignupRespose.m in Sources */,
+				92CD005E201F54CD004F0E7D /* TCPSentMessageResponse.m in Sources */,
+				927AE89A201B3E13001D1B61 /* TCPResposeManager.m in Sources */,
+				927AE89D201B43BD001D1B61 /* TCPRequestType.m in Sources */,
+				927AE8A0201B531A001D1B61 /* TCPLoginRespose.m in Sources */,
+				927AE86D201B2D2B001D1B61 /* ViewController.m in Sources */,
+				92CD0058201F3551004F0E7D /* TCPBroadcastRespose.m in Sources */,
+				927AE886201B2E1C001D1B61 /* TCPMessageDBManager.m in Sources */,
+				927AE894201B3A19001D1B61 /* TCPServer.m in Sources */,
+				927AE87B201B2D2B001D1B61 /* main.m in Sources */,
+				927AE88C201B3034001D1B61 /* TCPUserListVC.m in Sources */,
+				927AE86A201B2D2B001D1B61 /* AppDelegate.m in Sources */,
+				92C09CD4201EDCCC002EBE5A /* TCPLogoffRespose.m in Sources */,
+				92CD0061201F54EC004F0E7D /* TCPUpdateMsgStatusResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		927AE86E201B2D2B001D1B61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				927AE86F201B2D2B001D1B61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		927AE876201B2D2B001D1B61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				927AE877201B2D2B001D1B61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		927AE87C201B2D2B001D1B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		927AE87D201B2D2B001D1B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		927AE87F201B2D2B001D1B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TCPMessageServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SiyaInfotech.TCPMessageServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		927AE880201B2D2B001D1B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TCPMessageServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SiyaInfotech.TCPMessageServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		927AE860201B2D2B001D1B61 /* Build configuration list for PBXProject "TCPMessageServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				927AE87C201B2D2B001D1B61 /* Debug */,
+				927AE87D201B2D2B001D1B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		927AE87E201B2D2B001D1B61 /* Build configuration list for PBXNativeTarget "TCPMessageServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				927AE87F201B2D2B001D1B61 /* Debug */,
+				927AE880201B2D2B001D1B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 927AE85D201B2D2B001D1B61 /* Project object */;
+}
